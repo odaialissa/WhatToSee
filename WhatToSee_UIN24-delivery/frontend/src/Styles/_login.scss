@@ -1,0 +1,28 @@
+main{
+   h2{
+      padding: 10px 20px;
+      color: $primary-color;
+      font-size: 2.5rem;
+   }
+   .users{
+      padding: 10px 20px;
+      margin: 10px 20px;
+      display: flex;
+      flex-direction: column;
+      background-color: #ffffff;
+      width: 23rem;
+      height: 10rem;
+      
+      a{
+         width: 100%;
+         text-decoration: underline;
+         color: $primary-color;
+         font-size: 1.5rem;
+         font-weight: $bold-500;
+         margin: .5rem 0;
+         svg{
+            margin-right: .2rem;
+         }
+      }
+   }
+}

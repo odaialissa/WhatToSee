@@ -1,0 +1,40 @@
+@import 'nav';
+@import 'login';
+@import 'designelements';
+@import 'moviecard';
+@import '403error';
+@import 'genres';
+@import 'responsiv';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300..900&display=swap');
+
+$primary-color: #DF5549;
+$secondary-color: #772C25;
+$tertiary-color: #3c1613;
+$background-color: #FDF4F3;
+$font: 'Rubik', sans-serif;
+$bold-500: 500;
+$bold-700: 700;
+$max-width: 1200px;
+
+
+
+body {
+   margin: 0;
+   padding: 0;
+   font-family: $font;
+   background-color: $background-color;
+}
+
+footer{
+   width: 100%;
+   text-align: center;
+   margin-top: 2rem;
+   p{
+         padding: 0px 20px;
+         font-weight: $bold-500;
+         color: $primary-color;
+   }
+}
+

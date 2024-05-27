@@ -1,0 +1,152 @@
+main{
+   h2 {
+         display: flex;
+         align-items: center;
+         padding: 10px 20px;
+         color: $primary-color;
+         svg {
+            margin-left: 1rem;
+         }
+      }
+}
+
+// Home page
+.movieLists-section{
+   display: flex;
+   gap: 1rem;
+   .divider {
+         position: relative;
+         &::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            left: 50%;
+            border-left: 5px dashed $primary-color;
+         }
+      }
+      .movie-cards-section{
+         display: flex;
+         flex-wrap: wrap;
+      }
+   }
+   
+
+.friends-section, .genre-section{
+      padding: 0px 10px;
+      margin: 10px 20px;
+      display: flex;
+      flex-direction: column;
+      background-color: #ffffff;
+      width: 42.2rem;
+      height: 15rem;
+      h3{
+         font-size: 2rem;
+         margin-bottom: 0;
+         padding: 10px 20px;
+         color: $primary-color;
+      }
+      p{
+         margin-top: 0;
+         padding: 0 20px;
+         color: $primary-color;
+         font-weight: $bold-500;
+      }
+      a{
+         font-size: 1.5rem;
+         padding: 0 20px;
+         color: $primary-color;
+         font-weight: $bold-500;
+      }
+      button{
+         cursor: pointer;
+         width: 20%;
+         border: none;
+         background-color: transparent;
+         text-decoration: underline;
+         text-align: left;
+         font-size: 1.7rem;
+         font-family: $font;
+         color: $primary-color;
+         padding: 0px 20px;
+         font-weight: $bold-500;
+      }
+
+}
+
+.genre-section{
+   height: 20rem;
+}
+
+.favorite-list, .wish-list{
+   h4{
+      padding: 10px 20px;
+      color: $primary-color;
+      font-size: 2rem;
+   }
+}
+
+// movies by genre page
+.movies-by-genre{
+   h2{
+      font-size: 2.5rem;
+      padding: 10px 20px;
+      color: $primary-color;
+   }
+   .movie-cards-section{
+      display: flex;
+      flex-wrap: wrap;
+   }
+}
+
+// dashboard
+.catchUp-list, .GoSafe-list{
+   h4{
+      margin: 0;
+      padding: 10px 20px;
+      color: $primary-color;
+      font-size: 2rem;
+   }
+   p{
+      padding: 0 20px;
+      margin-top: 0;
+      color: $primary-color;
+      font-weight: $bold-500;
+      
+   }
+}
+.fav-and-wishlist-compare-sec{
+   h5{
+      font-size: 2.5rem;
+      margin-bottom: 0;
+      padding: 10px 20px;
+      color: $primary-color;
+   }
+   p{
+      padding: 10px 20px;
+      margin-top: 0;
+      color: $primary-color;
+      font-weight: $bold-500;
+      font-size: 1.2rem;
+   }
+   .movie-cards-section{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1;
+      
+      .movie-card{
+         margin-bottom: 10px;
+         .list-info{
+               display: block;
+               color: $light-color;
+               font-weight: normal;
+               font-size: .9rem;
+               padding:0;
+               margin: 0;
+               
+            }
+         }
+      }
+   }
+   
+   

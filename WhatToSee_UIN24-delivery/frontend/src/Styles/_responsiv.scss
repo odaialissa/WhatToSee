@@ -1,0 +1,169 @@
+@media only screen and (min-width: 718px) and (max-width: 1024px) {
+
+   // NAV
+      nav {
+         display: block;
+         h1{
+            text-align: center;
+            a{
+               font-size: 2rem;
+            }
+         }
+         ul {
+            cursor: pointer;
+            justify-content: space-around;
+            .menuItem {
+               font-size: 1.2rem;
+               a {
+                  font-size: 1.2rem;
+               }
+               button {
+                  font-size: 1.2rem;
+               }
+               svg {
+                  margin-right: .3rem;
+               }
+            }
+         }
+      }
+
+      // HOME PAGE + generall
+      main{
+         h2 {
+         font-size: 2rem;
+      }
+      }
+
+      .movie-card {
+         width: 100px;
+         margin-left: 20px;
+         a {
+            font-size: 1.2rem;
+         }
+      }
+      .friends-section,.genre-section {
+               width: 25rem;
+               h3 {
+                  font-size: 1.7rem;
+               }
+               button {
+                  font-size: 1.5rem;
+               }
+      
+            }
+
+      .favorite-list, .wish-list {
+               h4 {
+                  font-size: 1.7rem;
+               }
+            }
+      
+      // GENRE page
+            .genre-list {
+               display: grid;
+               grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+               gap: 1rem;
+      
+               .genre-item {
+                  font-size: 1.7rem;
+                  font-weight: $bold-500;
+                  border-bottom: 1px dashed $primary-color;
+                  padding-bottom: 10px;
+                  button {
+                     cursor: pointer;
+                     padding: 10px 20px;
+                     border: none;
+                     border-radius: .4rem;
+                     font-size: 1.3rem;
+                     font-weight: $bold-500;
+                     color: $light-color;
+                     transition: all .5s ease-in;
+                  }
+               }
+            }
+}
+@media only screen and (min-width: 400px) and (max-width: 717px) {
+
+   // NAV
+   nav {
+      display: block;
+
+      h1 {
+         a {
+            margin-left: 1rem;
+            border-bottom: 2px dashed $light-color;
+         }
+      }
+
+      ul {
+         cursor: pointer;
+         flex-direction: column;
+         .menuItem {
+            margin-top: .5rem;
+            font-size: 1.2rem;
+            
+            a {
+               font-size: 1.2rem;
+               
+            }
+
+            button {
+               font-size: 1.2rem;
+               margin-left: 5rem;
+            }
+
+            svg {
+               margin-right: .3rem;
+            }
+            
+         }
+         .menuItem:first-child{
+            background-color: transparent;
+         }
+         .menuItem:last-child {
+            border-left: none;
+            padding: 0 20px;
+         }
+      }
+   }
+
+   // HOME PAGE + generall
+   main {
+      h2 {
+         font-size: 2rem;
+      }
+   }
+   .movie-card {
+      width: 100px;
+      margin-left: 20px;
+      a {
+         font-size: 1.2rem;
+      }
+   }
+   .friends-section,.genre-section {
+      width: 25rem;
+      h3 {
+         font-size: 1.7rem;
+      }
+      button {
+         font-size: 1.5rem;
+      }
+   }
+   .favorite-list, .wish-list {
+      h4 {
+         font-size: 1.5rem;
+      }
+   }
+   // GENRE page
+   .genre-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(50%, 1fr));
+      gap: 1rem;
+
+      .genre-item {
+         button {
+            font-size: 1.3rem;
+         }
+      }
+   }
+}

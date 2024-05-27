@@ -1,0 +1,24 @@
+.login-err-msg{
+   text-align: center;
+   color: $primary-color;
+   margin-bottom: 19rem;
+   .oops{
+      display: block;
+      align-items: center;
+      font-size: 3rem;
+   }
+   .error-msg{
+      font-size: 2rem
+   }
+
+   a{
+      padding: 20px 40px;
+      font-size: 1.5rem;
+      font-weight: $bold-500;
+      border-radius: .5rem;
+      text-decoration: none;
+      color: $light-color;
+      background-color: $secondary-color;
+   }
+
+}
